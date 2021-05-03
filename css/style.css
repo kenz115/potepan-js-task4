@@ -1,0 +1,27 @@
+body {
+    background: #000;
+}
+#slider-wrap {
+    width: 50%;
+    margin: 0 auto;
+}
+h1 {
+    color: #fff;
+}
+ul {
+    padding: 0;
+}
+.slider img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	#slider-wrap {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+}
